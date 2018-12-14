@@ -27,7 +27,7 @@ export default class Login extends Component {
     return (
       <div className="boxed-view">
         <div className="boxed-view__box">
-          <h1>Short Link</h1>
+          <h1>Short Links App</h1>
           <b>{this.state.error}</b>
           <form
             onSubmit={e => this.onSubmit(e)}

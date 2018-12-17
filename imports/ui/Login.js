@@ -43,7 +43,7 @@ export default class Login extends Component {
             />
             <button className="button">Login</button>
           </form>
-          <Link to="/signup">Signup</Link>
+          or <Link to="/signup">Signup</Link>
         </div>
       </div>
     );

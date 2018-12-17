@@ -17,7 +17,7 @@ export default class AddLink extends Component {
     e.preventDefault();
     const { url } = this.state;
 
-    console.log(url);
+    // console.log(url);
     Meteor.call('links.insert', url, (err, res) => {
       if (!err) {
         this.handleModalClose();
